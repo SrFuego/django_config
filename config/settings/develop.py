@@ -1,4 +1,5 @@
 from .base import *
+from django.contrib.messages import constants as message_constants
 
 
 # Quick-start development settings - unsuitable for production
@@ -10,6 +11,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+MESSAGE_LEVEL = message_constants.DEBUG
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
