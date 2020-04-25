@@ -4,6 +4,9 @@ from .common import *
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
+ENVIRONMENT_NAME = "Testing server"
+ENVIRONMENT_COLOR = "#1DC022"
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -18,6 +21,3 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
-ENVIRONMENT_NAME = "Testing server"
-ENVIRONMENT_COLOR = "#1DC022"

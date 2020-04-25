@@ -5,6 +5,8 @@ from django.contrib.messages import constants as message_constants
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
+ENVIRONMENT_NAME = "Development server"
+ENVIRONMENT_COLOR = "#1DC022"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -22,6 +24,3 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
-ENVIRONMENT_NAME = "Develop server"
-ENVIRONMENT_COLOR = "#1DC022"
