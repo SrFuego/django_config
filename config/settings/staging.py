@@ -10,3 +10,6 @@ DEBUG = False
 # TODO: production
 # complete allowed hosts
 ALLOWED_HOSTS = []
+
+ENVIRONMENT_NAME = "Staging server"
+ENVIRONMENT_COLOR = "#FFA500"

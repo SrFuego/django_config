@@ -11,3 +11,6 @@ DEBUG = False
 # TODO: production
 # complete allowed hosts
 ALLOWED_HOSTS = []
+
+ENVIRONMENT_NAME = "Production server"
+ENVIRONMENT_COLOR = "#FF2222"
