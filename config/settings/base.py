@@ -28,6 +28,8 @@ DJANGO_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'django.contrib.redirects',
 )
 
 THIRD_PARTY_APPS = (
@@ -47,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.redirects.middleware.RedirectFallbackMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -134,3 +137,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+SITE_ID = 1
