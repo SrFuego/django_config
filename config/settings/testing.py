@@ -25,3 +25,16 @@ DATABASES = {
 PASSWORD_HASHERS = (
     'django.contrib.auth.hashers.MD5PasswordHasher',
 )
+
+
+# MIGRATION_MODULES = {
+#     'auth': None,
+#     'contenttypes': None,
+#     'default': None,
+#     'sessions': None,
+#
+#     'core': None,
+#     'profiles': None,
+#     'snippets': None,
+#     'scaffold_templates': None,
+# }
